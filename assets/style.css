@@ -383,7 +383,7 @@ footer span {
         gap: 0px;
     }
     .ladding-page iframe {
-        transform: scale(70%);
+        transform: scale(60%);
     }
     .ld-container {
         display: flex;
