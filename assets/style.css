@@ -30,11 +30,19 @@ body {
 /* Ladding Page */
 .ladding-page {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    padding: 2em;
+    height: max-content;
+    gap: 30px;
     background: var(--color-0);
+}
+.ladding-page .imgBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .ld-container {
     display: flex;
@@ -78,9 +86,6 @@ body {
 }
 .iWant_btn:hover {
     transform: scale(1.03);
-}
-.payment_methods {
-    height: 40px;
 }
 
 /* LP Ead */
@@ -297,11 +302,72 @@ footer span {
     font-size: 12px;
 }
 
-/* Mobile */
-@media screen and (max-width: 425px) {
+/* Tablet */
+@media screen and (max-width: 768px) {
     .imgBox {
         display: none;
     }
+    .ld-container {
+        width: 100%;
+    }
+    .why-need {
+        height: max-content;
+    }
+    .wn-container {
+        width: 60%;
+        gap: 20px;
+    }
+    .wn-container ol {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .wn-container button {
+        width: 90%;
+    }
+    .lpe-textbox ol {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .security {
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .security img {
+        height: 150px;
+        width: 150px;
+    }
+    .s-textbox {
+        width: 70%;
+    }
+    .s-textbox h1 {
+        font-size: 35px;
+    }
+    .frequently-questions {
+        gap: 20px;
+        padding: 2em;
+    }
+    .frequently-questions h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+    .fq-list {
+        width: 90%;
+    }
+    footer {
+        width: 100%;
+        padding: 1em;
+    }
+    footer span {
+        width: 100%;
+        font-size: 10px;
+    }
+}
+
+/* Mobile 425 */
+@media screen and (max-width: 425px) {
     .iWant_btn {
         width: 25em;
         height: 60px;
@@ -312,14 +378,19 @@ footer span {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 80vh;
+        height: max-content;
         padding: 2em;
+        gap: 0px;
+    }
+    .ladding-page iframe {
+        transform: scale(70%);
     }
     .ld-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: max-content;
         width: 100%;
     }
     .h-textbox {
@@ -340,6 +411,10 @@ footer span {
         align-items: center;
         padding: 2em;
         height: max-content;
+
+        .imgBox {
+            display: none;
+        }
     }
     .lpe-textbox {
         display: flex;
@@ -364,6 +439,10 @@ footer span {
         justify-content: center;
         align-items: center;
         height: max-content;
+
+        .imgBox {
+            display: none;
+        }
     }
     .wn-container {
         display: flex;
@@ -398,6 +477,10 @@ footer span {
         align-items: center;
         height: max-content;
         padding: 2em;
+
+        .imgBox {
+            display: none;
+        }
     }
     .special-buy .imgBox {
         display: none;
@@ -452,5 +535,41 @@ footer span {
     footer span {
         width: 100%;
         font-size: 10px;
+    }
+}
+
+/* Mobile 375 */
+@media screen and (max-width: 375px) {
+    .iWant_btn {
+        width: 24em;
+        height: 60px;
+        font-size: 12px;
+    }
+    .ladding-page iframe {
+        transform: scale(50%);
+    }
+    .h-textbox h1 {
+        font-size: 20px;
+    }
+    .sb-container img {
+        transform: scale(60%);
+    }
+    .lpe-textbox h1 {
+        font-size: 20px;
+    }
+    .lpe-textbox li {
+        font-size: 20px;
+    }
+    .wn-container h1 {
+        font-size: 20px;
+    }
+    .wn-container li {
+        font-size: 20px;
+    }
+    .s-textbox h1 {
+        font-size: 25px;
+    }
+    .s-textbox span {
+        font-size: 18px;
     }
 }
