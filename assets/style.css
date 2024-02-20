@@ -303,16 +303,16 @@ footer span {
     }
     .iWant_btn {
         width: 25em;
-        height: 40px;
-        font-size: 10px;
+        height: 60px;
+        font-size: 15px;
     }
     .ladding-page {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: max-content;
-        padding: 2em;
+        height: 100vh;
+        padding: 5em;
     }
     .ld-container {
         display: flex;
@@ -325,7 +325,7 @@ footer span {
         width: 100%;
     }
     .h-textbox h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
     .payment_methods img {
         height: 50%;
@@ -342,16 +342,15 @@ footer span {
     .lpe-textbox {
         display: flex;
         flex-direction: column;
-        width: 70%;
+        width: 90%;
     }
     .lpe-textbox h1 {
         width: 100%;
-        font-size: 20px;
+        font-size: 30px;
     }
     .lpe-textbox li {
-        font-size: 15px;
+        font-size: 25px;
     }
-
     .why-need {
         display: flex;
         flex-direction: column;
@@ -364,21 +363,22 @@ footer span {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 90%;
+        width: 100%;
         background: none;
+        gap: 20px;
     }
     .wn-container h1 {
         width: 100%;
-        font-size: 25px;
+        font-size: 40px;
     }
     .wn-container ol {
         width: 90%;
     }
     .wn-container li {
-        font-size: 15px;
+        font-size: 25px;
     }
     .wn-container span {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .special-buy {
@@ -394,6 +394,7 @@ footer span {
         margin: 0 auto;
         width: 70%;
         text-align: center;
+
     }
     .sb-container h1 {
         font-size: 30px;
@@ -432,9 +433,12 @@ footer span {
     .fq-list {
         width: 90%;
     }
-
+    footer {
+        width: 100%;
+        padding: 1em;
+    }
     footer span {
         width: 100%;
-        font-size: 10px;
+        font-size: 5px;
     }
 }
