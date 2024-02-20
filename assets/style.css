@@ -12,6 +12,10 @@
 body {
     display: flex;
     flex-direction: column;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .imgBox {
@@ -67,7 +71,7 @@ body {
     width: 35em;
     font-weight: 600;
     border-radius: 12px;
-    background: var(--color-2);
+    background: #ffa500;
     border: none;
     color: var(--background-color-1);
     transition: var(--transition);
@@ -113,9 +117,6 @@ body {
     flex-direction: row;
     align-items: center;
     gap: 5px;
-}
-.lpe-textbox button {
-    background: var(--color-0);
 }
 
 /* Quem Precisa */
@@ -275,7 +276,7 @@ body {
 }
 .fq-list-textbox {
     display: none;
-    background: white;
+    background: #ffa500;
     border-radius: 12px;
     padding: 5px;
 }
@@ -299,33 +300,34 @@ footer span {
 /* Mobile */
 @media screen and (max-width: 425px) {
     .imgBox {
-        display: block;
+        display: none;
     }
     .iWant_btn {
         width: 25em;
         height: 60px;
-        font-size: 15px;
+        font-size: 12px;
     }
     .ladding-page {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
-        padding: 5em;
+        height: 80vh;
+        padding: 2em;
     }
     .ld-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 99%;
+        width: 100%;
     }
     .h-textbox {
         width: 100%;
     }
     .h-textbox h1 {
-        font-size: 30px;
+        width: 100%;
+        font-size: 25px;
     }
     .payment_methods img {
         height: 50%;
@@ -336,7 +338,7 @@ footer span {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 1em;
+        padding: 2em;
         height: max-content;
     }
     .lpe-textbox {
@@ -439,6 +441,6 @@ footer span {
     }
     footer span {
         width: 100%;
-        font-size: 5px;
+        font-size: 10px;
     }
 }
