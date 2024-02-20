@@ -269,7 +269,7 @@ body {
     padding: 10px;
     border-radius: 12px;
 }
-.fq-list li:active {
+.fq-list li:hover {
     .fq-list-textbox {
         display: block;
     }
@@ -350,8 +350,13 @@ footer span {
         width: 100%;
         font-size: 30px;
     }
+    .lpe-textbox ol {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
     .lpe-textbox li {
-        font-size: 25px;
+        font-size: 21px;
     }
     .why-need {
         display: flex;
@@ -374,13 +379,16 @@ footer span {
         font-size: 40px;
     }
     .wn-container ol {
+        display: flex;
+        flex-direction: column;
         width: 90%;
+        gap: 0.5em;
     }
     .wn-container li {
-        font-size: 25px;
+        font-size: 21px;
     }
     .wn-container span {
-        font-size: 20px;
+        font-size:18px;
     }
 
     .special-buy {
@@ -388,6 +396,8 @@ footer span {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: max-content;
+        padding: 2em;
     }
     .special-buy .imgBox {
         display: none;
@@ -408,7 +418,7 @@ footer span {
         display: none;
     }
     .sb-container img {
-        transform: scale(0.9);
+        transform: scale(80%);
     }
     
     .security {
