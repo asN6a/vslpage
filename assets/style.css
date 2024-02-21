@@ -97,7 +97,7 @@ body {
     height: 100vh;
     padding: 1em;
     gap: 1em;
-    background: var(--color-1);
+    background: var(--color-0);
 }
 .lpe-textbox {
     display: flex;
@@ -173,7 +173,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: var(--color-1);
+    background: var(--color-0);
 }
 .special-buy .imgBox {
     width: 50%;
@@ -219,7 +219,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: red;
+    background: var(--color-0);
     padding: 1em;
 }
 .security img {
@@ -243,7 +243,7 @@ body {
     align-items: center;
     height: max-content;
     padding: 5em;
-    background: red;
+    background: var(--color-0);
 }
 .frequently-questions h1 {
     font-size: 60px;
@@ -487,12 +487,15 @@ footer span {
     }
     .sb-container {
         margin: 0 auto;
-        width: 70%;
+        width: 90%;
         text-align: center;
 
     }
     .sb-container h1 {
-        font-size: 30px;
+        font-size: 40px;
+    }
+    .sb-container span {
+        font-size: 20px;
     }
     .sbc-price {
         font-size: 20px;
@@ -513,7 +516,7 @@ footer span {
         text-align: center;
     }
     .s-textbox h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
     .frequently-questions {
         width: 100%;
@@ -521,12 +524,15 @@ footer span {
         gap: 20px;
     }
     .frequently-questions h1 {
-        font-size: 30px;
+        font-size: 40px;
         text-align: center;
         width: 100%;
     }
     .fq-list {
-        width: 90%;
+        width: 100%;
+    }
+    .fq-list li {
+        font-size: 20px;
     }
     footer {
         width: 100%;
