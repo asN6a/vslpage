@@ -39,7 +39,6 @@ body {
     background-image: url(https://images.pexels.com/photos/2023384/pexels-photo-2023384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
     background-size: cover;
     background-position: center;
-    
 }
 .ladding-page .imgBox {
     display: flex;
@@ -90,6 +89,10 @@ body {
     height: max-content;
     gap: 1em;
     background: var(--color-0);
+}
+.ladding-page-ead .imgBox img {
+    border-radius: 12px;
+    width: 35em;
 }
 .lpe-textbox {
     display: flex;
@@ -414,9 +417,16 @@ footer span {
         justify-content: center;
         align-items: center;
         height: max-content;
+        gap: 0px;
 
         .imgBox {
-            display: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+        }
+        .imgBox img {
+            height: 30em;
         }
     }
     .lpe-textbox {
