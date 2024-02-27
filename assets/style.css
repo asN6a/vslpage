@@ -39,6 +39,7 @@ body {
     background-image: url(https://images.pexels.com/photos/2023384/pexels-photo-2023384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
     background-size: cover;
     background-position: center;
+    background-color: rgba(255, 255, 255, ); /* Define a cor de fundo com opacidade */
 }
 .ladding-page .imgBox {
     display: flex;
