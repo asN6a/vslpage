@@ -434,7 +434,10 @@ footer span {
     .lpe-textbox {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 90%;
+        gap: 20px;
     }
     .lpe-textbox h1 {
         width: 100%;
@@ -464,8 +467,7 @@ footer span {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        background: none;
+        width: 90%;
         gap: 20px;
     }
     .wn-container h1 {
